@@ -1,8 +1,9 @@
 import streamlit as st
 import requests
+os.system("pip install groq")
 from groq import Groq
 import os
-os.system("pip install groq")
+
 # Streamlit app setup
 st.title("Sifra AI")
 st.write("Upload a text file to set the context for the chat. Enter your questions to get responses based on the content of the file.")
