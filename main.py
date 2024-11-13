@@ -1,8 +1,9 @@
 import streamlit as st
 import requests
+import os
 os.system("pip install groq")
 from groq import Groq
-import os
+
 
 # Streamlit app setup
 st.title("Sifra AI")
