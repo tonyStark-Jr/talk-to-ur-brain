@@ -1,7 +1,10 @@
+!pip install groq
+
+
 import streamlit as st
 import requests
 import os
-os.system("pip install groq")
+
 from groq import Groq
 
 
