@@ -8,7 +8,7 @@ from groq import Groq
 
 
 # Streamlit app setup
-st.title("Zinda AI")
+st.title("SIFRA AI: Strategic Ideation Framework for Responsive AI")
 st.write("Upload a text file to set the context for the chat. Enter your questions to get responses based on the content of the file.")
 
 # Function to call Groq LLM API
